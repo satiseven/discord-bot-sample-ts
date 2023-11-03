@@ -9,6 +9,7 @@
   "scripts": {
     "start": "",
     "watch": "tsc --watch",
+    "dev":"nodemon build",
     "prettier": "prettier --write src/**/*.ts",
     "lint": "eslint src --ext .ts --fix",
     "check-types": "tsc --noEmit"
